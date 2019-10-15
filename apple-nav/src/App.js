@@ -1,10 +1,15 @@
 import React from 'react';
+import { Route, Switch } from 'react-router-dom';
+
+import NavWrapper from './components/NavWrapper';
+
 import './App.css';
 
 function App() {
   return (
-    <div>
-    </div>
+    <NavWrapper>
+
+    </NavWrapper>
   );
 }
 

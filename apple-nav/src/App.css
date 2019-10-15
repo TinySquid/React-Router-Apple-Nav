@@ -1,0 +1,33 @@
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(40, 40, 40);
+  padding: .6%;
+}
+
+.nav-wrapper a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin: auto 2.3%;
+  font-size: .9rem;
+}
+
+.nav-wrapper a:hover {
+  color: rgb(202, 202, 202);
+}
+
+.nav-wrapper .selected {
+  color: rgb(202, 202, 202);
+}
+
+.icon {
+  color: white;
+  margin: auto 2.3%;
+  font-size: 1.3rem;
+}
+
+.icon-search {
+  color: white;
+  margin: auto 2.3%;
+  font-size: 1.1rem;
+}
